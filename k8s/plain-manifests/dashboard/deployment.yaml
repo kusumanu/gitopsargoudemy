@@ -17,6 +17,7 @@ spec:
       containers:
         - name: dashboard
           image: arsr319/finovra-dashboard:1.0.0
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
           env:
