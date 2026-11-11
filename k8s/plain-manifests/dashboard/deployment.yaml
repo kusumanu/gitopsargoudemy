@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: dashboard
-          image: arsr319/finovra-dashboard:1.0.3
+          image: arsr319/finovra-dashboard:1.0.0
           imagePullPolicy: Never
           ports:
             - containerPort: 3000
